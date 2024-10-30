@@ -1,68 +1,51 @@
-Test Cases for Login Functionality for demo.opencart.com
+# Opencartdemo website login functionality Cypress automation
+
+This repository conntains Cypress automation test for Opencartdemo website. The test cases are designed to cover and execute automation for positive, negative and exceptional usecases.
+
+## Prerequisites
+
+To setup the Cypress framework, install following 
+
+- **Node.js** (v12 or higher)
+- **Cypress** (install using npm)
+- **Git** (For cloning the repository)
+
+Above setup must be completed before executing the testcases
+
+## Steps to follow:
+
+1. **Clone the repository:**
+
+Open the bash in the terminal and execute below commands.
+
+git clone https://github.com/nidhisingh87/opencart-login-cyp-auto.git
+cd CypressAutomatio_demo.opencart_Loginfunctionality
+
+2. **Install Cypress:**
+
+Install Cypress via node package manager (npm) using below command.
+
+npm install cypress --save-dev
 
 
------ Test Case 01 ------- (Positive Test Case)
+3. **Open Cypress Test Runner:**
 
-TC_01 Login with Valid Credentials
-----------------------------------
+   Run the below command to open graphical user interface od Cypress to view and run tests.
 
-To Verify user should be able to login with valid credentials
+   npx cypress open
 
-Pre-conditions- User should be registered and should be on login page of the application.
+4. **Alternatively, to run Tests in Headless Mode:**
 
-Test Steps: 1. Navigate to https://demo.opencart.com/en-gb?route=account/login
-            2. Enter valid login credentials (Valid email & Password)
-            3. Click on the login button.
+   Execute below command:
 
-Test Data: nidhi@stockholmitacademy.org
-           12345
+   npx cypress run
 
-Expected Results: User should be able to login and should navigate to home page of the application.
+## Viewing Test Reports
 
-Actual Results: Sucessful login and User is navigated to home page to the application.
+Cypress automatically generates reports for testrun, it contains both pass and fail results in green and red colour repectively.
 
------------------------------------------------------
 
------ Test Case 02 ------- (Negative Test Case)
 
-TC_02 Login with Invalid Credentials
-------------------------------------
+Please refer below link to see detailed manual test cases:
 
-To Validate the user login with invalid credentials
-
-Pre-conditions- User should be registered and should be on login page of the application.
-
-Test Steps: 1. Navigate to https://demo.opencart.com/en-gb?route=account/login
-            2. Enter valid Email
-            3. Enter invalid password.
-            4. Click on the login button.
-
-Test Data: nidhi@stockholmitacademy.org
-           101010
-
-Expected Results: User should not be allowed to login and navigate further.
-                  Appropriate error message should be displayed.
-
-Actual Results: Unsucessful login and Appropriate error message is displayed.
-
-------------------------------------------------------
-
------ Test Case 03 ------- (Exception Test Case)
-
-TC_03 Login with Empty Fields
------------------------------
-
-To Validate the user login with empty fields
-
-Pre-conditions- User should be on login page of the application.
-
-Test Steps: 1. Navigate to https://demo.opencart.com/en-gb?route=account/login
-            2. Click on the login button without entering anything in the username and password fields.
-
-Test Data: 
-
-Expected Results: User should not be allowed to login and Appropriate error message should be displayed.
-
-Actual Results: Unsucessful login and Appropriate error message is displayed.
-
-----------------------------------------------------------------------  
+https://docs.google.com/spreadsheets/d/1tn4PgSWLekm1zmh-psKwEHgVPzbwyAGT1oPt8j_ObDk/edit?usp=drive_link
