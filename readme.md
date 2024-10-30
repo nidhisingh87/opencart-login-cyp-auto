@@ -16,17 +16,17 @@ Above setup must be completed before executing the testcases
 
 1. **Clone the repository:**
 
-Open the bash in the terminal and execute below commands.
+   Open the bash in the terminal and execute below commands.
 
-git clone https://github.com/nidhisingh87/opencart-login-cyp-auto.git
+   git clone https://github.com/nidhisingh87/opencart-login-cyp-auto.git
 
-cd CypressAutomatio_demo.opencart_Loginfunctionality
+   cd CypressAutomatio_demo.opencart_Loginfunctionality
 
 2. **Install Cypress:**
 
-Install Cypress via node package manager (npm) using below command.
+   Install Cypress via node package manager (npm) using below command.
 
-npm install cypress --save-dev
+   npm install cypress --save-dev
 
 
 3. **Open Cypress Test Runner:**
