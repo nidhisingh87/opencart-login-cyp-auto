@@ -1,10 +1,10 @@
 Test Cases for Login Functionality for demo.opencart.com
 
---------------------------------------------------
 
 ----- Test Case 01 ------- (Positive Test Case)
 
 TC_01 Login with Valid Credentials
+----------------------------------
 
 To Verify user should be able to login with valid credentials
 
@@ -20,11 +20,13 @@ Test Data: nidhi@stockholmitacademy.org
 Expected Results: User should be able to login and should navigate to home page of the application.
 
 Actual Results: Sucessful login and User is navigated to home page to the application.
+
 -----------------------------------------------------
 
 ----- Test Case 02 ------- (Negative Test Case)
 
 TC_02 Login with Invalid Credentials
+------------------------------------
 
 To Validate the user login with invalid credentials
 
@@ -42,11 +44,13 @@ Expected Results: User should not be allowed to login and navigate further.
                   Appropriate error message should be displayed.
 
 Actual Results: Unsucessful login and Appropriate error message is displayed.
+
 ------------------------------------------------------
 
 ----- Test Case 03 ------- (Exception Test Case)
 
 TC_03 Login with Empty Fields
+-----------------------------
 
 To Validate the user login with empty fields
 
@@ -60,4 +64,5 @@ Test Data:
 Expected Results: User should not be allowed to login and Appropriate error message should be displayed.
 
 Actual Results: Unsucessful login and Appropriate error message is displayed.
+
 ----------------------------------------------------------------------  
