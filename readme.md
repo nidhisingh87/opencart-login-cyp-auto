@@ -19,6 +19,7 @@ Above setup must be completed before executing the testcases
 Open the bash in the terminal and execute below commands.
 
 git clone https://github.com/nidhisingh87/opencart-login-cyp-auto.git
+
 cd CypressAutomatio_demo.opencart_Loginfunctionality
 
 2. **Install Cypress:**
