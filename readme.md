@@ -61,7 +61,7 @@ Above setup must be completed before executing the testcases
 
 ## Viewing Test Reports
 
-Cypress automatically generates reports for testrun, it contains both pass and fail results in green and red colour repectively.
+Cypress automatically generates reports for testrun, it contains both pass and fail results in green and red colour respectively.
 
 
 ## Manual testcases spreadsheet
