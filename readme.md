@@ -45,10 +45,10 @@ Above setup must be completed before executing the testcases
 
 **Follow the below steps to run the testcase in Cypress Runner**
  
-- Step 1. **Select the Scaffold file in the project directory.**
-- Step 2. **Select the browser of your choice prompted by Cypress runner.**
-- Step 3. **Select "Okay, I got" it to continue.**
-- Step 4. **Select the desired testcase that you want to run from the displayed list, once selected, Cypress runner will start running the particular testcase.**
+- **Step 1.** Select the Scaffold file in the project directory.
+- **Step 2.** Select the browser of your choice prompted by Cypress runner.
+- **Step 3.** Select "Okay, I got" it to continue.
+- **Step 4.** Select the desired testcase that you want to run from the displayed list, once selected, Cypress runner will start running the particular testcase.
 
 
 4. **Alternatively, to run Tests in Headless Mode:**
