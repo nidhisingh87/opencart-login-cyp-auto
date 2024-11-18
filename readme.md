@@ -1,4 +1,4 @@
-# Opencartdemo website login functionality Cypress automation
+# Opencartdemo (Login) Auto
 
 This repository conntains Cypress automation test for Opencartdemo website. The test cases are designed to cover and execute automation for positive, negative and exceptional usecases.
 
@@ -23,7 +23,7 @@ Above setup must be completed before executing the testcases
    ```
 
    ```bash
-   cd CypressAutomatio_demo.opencart_Loginfunctionality
+   cd opencart-login-cyp-auto
    ```
 
 2. **Install Cypress:**
